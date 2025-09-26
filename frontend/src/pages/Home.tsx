@@ -10,8 +10,9 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
+  const apiUrl = import.meta.env.VITE_API_URL;
   const sendApiRequestandHandleError = async (method: string = 'GET', path: string, body?: any) => {
-    const apiUrl = import.meta.env.VITE_API_URL;
+    
     try {
       const response = await fetch(`${apiUrl}/api/${path}`, {
         method: method,
