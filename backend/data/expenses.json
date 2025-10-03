@@ -26,5 +26,12 @@
     "description": "Random Expense 1758264866647",
     "payer": "Bob",
     "amount": 80.94
+  },
+  {
+    "id": "1759479401470",
+    "date": "2025-10-03T08:16:41.388Z",
+    "description": "test",
+    "payer": "Alice",
+    "amount": 20
   }
 ]
